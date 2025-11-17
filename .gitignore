@@ -1,0 +1,71 @@
+%% MATLAB-specific files
+*.m~
+*.asv
+*.mex*
+*.so
+*.dylib
+
+%% Compiled MATLAB files
+*.p
+*.slx.autosave
+
+%% MATLAB workspace and session files
+
+
+%% Simulink and stateflow cache
+slprj/
+*.slxc
+*.mdl.autosave
+
+%% Generated documentation
+html/
+latex/
+*.pdf
+
+%% Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+%% OS-specific files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.lnk
+
+%% IDE configuration
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+
+%% Data files (PsychToolbox experiment data)
+
+
+%% Large image files (if storing stimuli)
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.avi
+*.mp4
+
+%% Python cache (if running Python tools)
+__pycache__/
+*.pyc
+*.pyo
+
+%% Experiment-specific outputs
+logs/
+output/
+results/
+
+%% Dependency cache
+.matlab/
+.matlabroot/
+
+%% Screen captures and screenshots
+*.screenshot
