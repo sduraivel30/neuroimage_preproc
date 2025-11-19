@@ -10,7 +10,9 @@
 *.slx.autosave
 
 %% MATLAB workspace and session files
-
+*.mat
+matlab.mat
+workspace.mat
 
 %% Simulink and stateflow cache
 slprj/
@@ -43,15 +45,17 @@ Thumbs.db
 *.sublime-workspace
 
 %% Data files (PsychToolbox experiment data)
-
+%data/*.mat
+%data/*.txt
+%data/*.csv
 
 %% Large image files (if storing stimuli)
-*.png
-*.jpg
-*.jpeg
-*.tiff
-*.avi
-*.mp4
+%*.png
+%*.jpg
+%*.jpeg
+%*.tiff
+%*.avi
+%*.mp4
 
 %% Python cache (if running Python tools)
 __pycache__/
